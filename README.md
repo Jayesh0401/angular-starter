@@ -1,1 +1,1 @@
-"# angular-starter" 
+# angular-starter
