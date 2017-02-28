@@ -22,7 +22,7 @@ define([
    *
    * @memberof   act.Base
    *
-   * @author     shoaibmerchant
+   * @author     jayeshactonate
    *
    * @param      {Objet}  $mdToast  Angular Material Toast Service
    */
@@ -40,7 +40,7 @@ define([
      *
      * @memberof   act.Base.ToastController
      *
-     * @author     shoaibmerchant
+     * @author     jayeshactonate
      */
     function closeToast() {
       $mdToast.hide();

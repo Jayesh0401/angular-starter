@@ -26,7 +26,7 @@ define([
      *
      * @memberof   act.Services.DialogService
      *
-     * @author     shoaibmerchant
+     * @author     jayeshactonate
      *
      * @param      {Object}  opts    The options with the format, the object structure is
      *                               {controllerPath: '', templatePath: '', options: { // override
@@ -81,7 +81,7 @@ define([
      *
      * @memberof   act.Services.DialogService
      *
-     * @author     shoaibmerchant
+     * @author     jayeshactonate
      *
      * @param      {Object}  !res     Optional result (reject promise)
      */

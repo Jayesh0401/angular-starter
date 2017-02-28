@@ -22,7 +22,7 @@ define([
    *
    * @memberof   act.Base
    *
-   * @author     shoaibmerchant
+   * @author     jayeshactonate
    *
    * @class
    * @return     {Object}  Provider instance of the service
@@ -44,7 +44,7 @@ define([
      *
      * @memberof   act.Base
      *
-     * @author     shoaibmerchant
+     * @author     jayeshactonate
      *
      * @class
      * @param      {Object}    logger         act.log logging service
@@ -76,7 +76,7 @@ define([
        *
        * @memberof   act.Base.ToastService
        *
-       * @author     shoaibmerchant
+       * @author     jayeshactonate
        *
        * @param      {!String}   message  Message to show in the toast
        * @param      {!String}   type     Type of message - error, info, success, loading
@@ -148,7 +148,7 @@ define([
        *
        * @memberof   act.Base.ToastService
        *
-       * @author     shoaibmerchant
+       * @author     jayeshactonate
        */
       function hide() {
         $mdToast.hide();
@@ -161,7 +161,7 @@ define([
        *
        * @memberof   act.Base.ToastService
        *
-       * @author     shoaibmerchant
+       * @author     jayeshactonate
        *
        * @param      {!String}  message  Message to show in the toast
        * @param      {Object}   options  Additional parameters for the toast e.g. {timeout: 5000,
@@ -180,7 +180,7 @@ define([
        *
        * @memberof   act.Base.ToastService
        *
-       * @author     shoaibmerchant
+       * @author     jayeshactonate
        *
        * @param      {!String}  message  Message to show in the toast
        * @param      {Object}   options  Additional parameters for the toast e.g. {timeout: 5000,
@@ -199,7 +199,7 @@ define([
        *
        * @memberof   act.Base.ToastService
        *
-       * @author     shoaibmerchant
+       * @author     jayeshactonate
        *
        * @param      {!String}  message  Message to show in the toast
        * @param      {Object}   options  Additional parameters for the toast e.g. {timeout: 5000,
@@ -218,7 +218,7 @@ define([
        *
        * @memberof   act.Base.ToastService
        *
-       * @author     shoaibmerchant
+       * @author     jayeshactonate
        *
        * @param      {!String}  message  Message to show in the toast
        * @param      {Object}   options  Additional parameters for the toast e.g. {timeout: 5000,

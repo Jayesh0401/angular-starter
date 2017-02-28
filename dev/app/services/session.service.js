@@ -31,7 +31,7 @@ define([
      *
      * @memberof   act.Services.AuthService
      *
-     * @author     shoaibmerchant
+     * @author     jayeshactonate
      *
      * @return     {promises}  { promises return when after session check}
      */

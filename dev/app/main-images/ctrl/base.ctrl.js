@@ -3,12 +3,12 @@
  */
 define([
   'app/services/dialog.service',
-  'app/main-products/services/products.service',
+  'app/main-images/services/products.service',
   ], function() {
 
   angular
-    .module('act.Main.Products')
-    .controller('MainProductsBaseController', controller);
+    .module('act.Main.Images')
+    .controller('MainImagesBaseController', controller);
 
   controller.$inject = ['$state', 'APP_BASE_PATH', 'logger', 'ToastService',
     'DialogService', 'ProductsService'];
@@ -22,9 +22,9 @@ define([
    *
    * @public
    *
-   * @memberof   act.Main.Products
+   * @memberof   act.Main.Images
    *
-   * @author     shoaibmerchant
+   * @author     jayeshactonate
    *
    * @param      {Object}  $state           ui-router state service
    * @param      {string}  APP_BASE_PATH    App Base Path Constant
@@ -46,9 +46,9 @@ define([
     function showAddDialog(event) {
 
       DialogService.show({
-        controller: 'MainProductsAddController',
-        controllerPath: 'app/main-products/ctrl/add-dialog.ctrl.js',
-        templatePath: 'app/main-products/tpl/add-dialog.tpl.html',
+        controller: 'MainImagesAddController',
+        controllerPath: 'app/main-images/ctrl/add-dialog.ctrl.js',
+        templatePath: 'app/main-images/tpl/add-dialog.tpl.html',
         options: {
           targetEvent: event
         }

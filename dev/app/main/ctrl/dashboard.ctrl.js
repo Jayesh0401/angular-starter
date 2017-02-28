@@ -20,7 +20,7 @@ define([], function() {
    *
    * @memberof   act.Main
    *
-   * @author     shoaibmerchant
+   * @author     jayeshactonate
    */
   function controller() {
     // var ViewModel = this;

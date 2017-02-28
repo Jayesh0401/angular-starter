@@ -23,7 +23,7 @@ define([
    *
    * @memberof   act.Auth
    *
-   * @author     shoaibmerchant
+   * @author     jayeshactonate
    *
    * @param      {Object}  logger        act-log logger
    * @param      {Object}  Rest          act-rest REST Client
@@ -49,7 +49,7 @@ define([
      *
      * @memberof   act.Base.AppBaseController
      *
-     * @author     shoaibmerchant
+     * @author     jayeshactonate
      */
     function loginUser() {
       var userCreds = ViewModel.user;

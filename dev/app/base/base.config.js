@@ -36,7 +36,7 @@ define([
    *
    * @memberof   act.Base
    *
-   * @author     shoaibmerchant
+   * @author     jayeshactonate
    *
    * @class
    * @param      {String}  APP_BASE_PATH       App Base path
@@ -109,7 +109,7 @@ define([
      *
      * @memberof   act.Base
      *
-     * @author     shoaibmerchant
+     * @author     jayeshactonate
      *
      * @param      {Object}  $injector  Angular's $injector service (dependency injection)
      */
@@ -128,7 +128,7 @@ define([
    *
    * @memberof   act.Base
    *
-   * @author     shoaibmerchant
+   * @author     jayeshactonate
    *
    * @param      {Object}   loggerProvider       act-log logger
    * @param      {String}   APP_NAME             app name
@@ -148,7 +148,7 @@ define([
    *
    * @memberof   act.Base
    *
-   * @author     shoaibmerchant
+   * @author     jayeshactonate
    *
    * @param      {Object}  RestProvider  act-rest provider
    * @param      {String}  APP_REST_URL  API Url

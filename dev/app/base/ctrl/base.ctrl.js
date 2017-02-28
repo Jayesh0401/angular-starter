@@ -20,7 +20,7 @@ define([], function() {
    *
    * @memberof   act.Base
    *
-   * @author     shoaibmerchant
+   * @author     jayeshactonate
    *
    */
   function controller() {

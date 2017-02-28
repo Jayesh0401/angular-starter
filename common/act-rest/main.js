@@ -21,7 +21,7 @@ define([], function() {
    *
    * @memberof   act.rest
    *
-   * @author     shoaibmerchant
+   * @author     jayeshactonate
    *
    * @class
    * @return     {Object}  Provider Instance of the class
@@ -47,7 +47,7 @@ define([], function() {
      *
      * @memberof   act.rest
      *
-     * @author     shoaibmerchant
+     * @author     jayeshactonate
      *
      * @class
      * @param      {Object}  $http    Angular's primitive $http service
@@ -66,7 +66,7 @@ define([], function() {
        *
        * @memberof   act.rest.Rest
        *
-       * @author     shoaibmerchant
+       * @author     jayeshactonate
        *
        * @param      {String}  name           Name of the resource or controller
        * @param      {Object}  customBaseUrl  Custom base url
@@ -93,7 +93,7 @@ define([], function() {
          *
          * @memberof   act.rest.Rest
          *
-         * @author     shoaibmerchant
+         * @author     jayeshactonate
          *
          * @param      {String}  action  The action part of the url
          * @param      {Object}  params  additional url config
@@ -111,7 +111,7 @@ define([], function() {
          *
          * @memberof   act.rest.Rest
          *
-         * @author     shoaibmerchant
+         * @author     jayeshactonate
          *
          * @param      {String}    action  The action part of the url
          * @param      {Object}    params  additional url config
@@ -131,7 +131,7 @@ define([], function() {
            *
            * @memberof   act.rest.Rest
            *
-           * @author     shoaibmerchant
+           * @author     jayeshactonate
            *
            * @param      {options}   options  HTTP Request options
            * @return     {Function}  HTTP Get Client (just pass optional config)
@@ -149,7 +149,7 @@ define([], function() {
          *
          * @memberof   act.rest.Rest
          *
-         * @author     shoaibmerchant
+         * @author     jayeshactonate
          *
          * @param      {String}  action  Name of the action
          * @return     {Function}  HTTP POST Client (just pass data and options)
@@ -167,7 +167,7 @@ define([], function() {
            *
            * @memberof   act.rest.Rest
            *
-           * @author     shoaibmerchant
+           * @author     jayeshactonate
            *
            * @param      {data}     data     POST Data
            * @param      {options}  options  HTTP Request options
@@ -186,7 +186,7 @@ define([], function() {
          *
          * @memberof   act.rest.Rest
          *
-         * @author     shoaibmerchant
+         * @author     jayeshactonate
          *
          * @param      {String}  action  Name of the action
          * @return     {Function}  HTTP POST Client (just pass data and options)
@@ -204,7 +204,7 @@ define([], function() {
            *
            * @memberof   act.rest.Rest
            *
-           * @author     shoaibmerchant
+           * @author     jayeshactonate
            *
            * @param      {data}     data     POST Data
            * @param      {options}  options  HTTP Request options
@@ -223,7 +223,7 @@ define([], function() {
          *
          * @memberof   act.rest.Rest
          *
-         * @author     shoaibmerchant
+         * @author     jayeshactonate
          *
          * @param      {String}  action  Name of the action
          * @return     {Function}  HTTP POST Client (just pass data and options)
@@ -241,7 +241,7 @@ define([], function() {
            *
            * @memberof   act.rest.Rest
            *
-           * @author     shoaibmerchant
+           * @author     jayeshactonate
            *
            * @param      {data}     data     POST Data
            * @param      {options}  options  HTTP Request options
@@ -259,7 +259,7 @@ define([], function() {
          *
          * @memberof   (parent_name_path)
          *
-         * @author     shoaibmerchant
+         * @author     jayeshactonate
          *
          * @param      {String}  childName  { description }
          * @return     {Object}  Child of the resource provided
@@ -277,7 +277,7 @@ define([], function() {
          *
          * @memberof   act.rest.Rest
          *
-         * @author     shoaibmerchant
+         * @author     jayeshactonate
          *
          * @param      {String}  action  Action fragment/part of the url
          * @return     {String}  Generated resource url
@@ -307,7 +307,7 @@ define([], function() {
      *
      * @memberof   act.rest.Rest
      *
-     * @author     shoaibmerchant
+     * @author     jayeshactonate
      *
      * @param      {String}   appBaseUrl  API Base Url
      * @param      {Object}   options     Additional configuration parameters

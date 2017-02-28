@@ -22,7 +22,7 @@ define([
    *
    * @memberof   act.Main
    *
-   * @author     shoaibmerchant
+   * @author     jayeshactonate
    *
    * @param      {Object}    $state        ui-router state service
    * @param      {Function}  $mdSidenav    Angular Material Sidenav

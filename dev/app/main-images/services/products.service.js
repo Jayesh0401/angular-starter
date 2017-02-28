@@ -2,7 +2,7 @@ define([
 	'app-bootstrap'
 ],function(){
 	
-	angular.module('act.Main.Products')
+	angular.module('act.Main.Images')
 	.factory('ProductsService', ProductsService);
 	
   ProductsService.$inject = ['logger', 'Rest', '$q', '$timeout'];

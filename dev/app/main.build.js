@@ -10,8 +10,8 @@ define([
   'app/auth/auth.config',
   'app/main/main.config',
   'app/main-users/main-users.config',
-  'app/main-products/main-products.config'
-], function() {
+  'app/main-images/main-images.config'
+  ], function() {
 
   angular.module('act', [
     'act.Base',
@@ -21,7 +21,7 @@ define([
     'act.Auth',
     'act.Main',
     'act.Main.Users',
-    'act.Main.Products',
+    'act.Main.Images',
 
     // All 3rd party modules
     'ngMaterial',
@@ -46,7 +46,7 @@ define([
    *
    * @memberof   act
    *
-   * @author     shoaibmerchant
+   * @author     jayeshactonate
    *
    * @class      NgMaterialConfig
    * @param      {Object}  $mdThemingProvider  Angular Material Theming provider

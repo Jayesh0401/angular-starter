@@ -25,7 +25,7 @@ define([
    *
    * @memberof   act.Auth
    *
-   * @author     shoaibmerchant
+   * @author     jayeshactonate
    *
    * @class
    * @param      {String}  APP_BASE_PATH   App Base path

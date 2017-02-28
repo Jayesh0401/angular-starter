@@ -25,7 +25,7 @@ define([
     	 *
     	 * @memberof   act.Auth.AuthService
     	 *
-    	 * @author     shoaibmerchant
+    	 * @author     jayeshactonate
     	 *
     	 * @param      {Object}  user    User credentials (username, password)
     	 * @return     {Object}  Promise

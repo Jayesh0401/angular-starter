@@ -4,8 +4,8 @@
 define([], function() {
 
   angular
-    .module('act.Main.Products')
-    .controller('MainProductsAddController', controller);
+    .module('act.Main.Images')
+    .controller('MainImagesAddController', controller);
 
   controller.$inject = ['$scope', 'logger', 'Upload', 'APP_REST_URL', 'ToastService',
     'DialogService'];
@@ -19,9 +19,9 @@ define([], function() {
    *
    * @public
    *
-   * @memberof   act.Main.Products
+   * @memberof   act.Main.Images
    *
-   * @author     shoaibmerchant
+   * @author     jayeshactonate
    *
    * @param      {Object}  $scope        Controller Scope
    * @param      {Object}  logger        act.log logger
@@ -31,7 +31,7 @@ define([], function() {
    */
   function controller($scope, logger, Upload, APP_REST_URL, ToastService, DialogService) {
     var ViewModel = this;
-    var log = logger.log().child('MainProductsAddController');
+    var log = logger.log().child('MainImagesAddController');
 
     ViewModel.photoSelected = false;
     ViewModel.photoUploadInProgress = false;
@@ -60,7 +60,7 @@ define([], function() {
       ToastService.loading();
 
       Upload.upload({
-          url: APP_REST_URL + '/products/upload',
+          url: APP_REST_URL + '/images/upload',
           data: {file: ViewModel.photo}
       })
         .then(function(res) {

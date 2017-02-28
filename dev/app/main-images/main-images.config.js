@@ -1,12 +1,12 @@
 /**
- * @namespace act.Products
+ * @namespace act.Images
  */
 define([
  'app-bootstrap'
 ], function() {
 
   angular
-    .module('act.Main.Products')
+    .module('act.Main.Images')
     .config(RouterConfig);
 
 
@@ -19,13 +19,13 @@ define([
   RouterConfig.$inject = ['APP_BASE_PATH', '$stateProvider', 'lazyProvider'];
 
   /**
-   * Configure the act.Main.Products module's routes
+   * Configure the act.Main.Images module's routes
    *
    * @public
    *
    * @memberof   act.Main
    *
-   * @author     shoaibmerchant
+   * @author     jayeshactonate
    *
    * @class
    * @param      {String}  APP_BASE_PATH   App Base path
@@ -35,16 +35,16 @@ define([
    */
   function RouterConfig(APP_BASE_PATH, $stateProvider, lazyProvider) {
 
-    var BASE_DIR_CTRL = APP_BASE_PATH + 'app/main-products/ctrl/';
-    var BASE_DIR_TPL = APP_BASE_PATH + 'app/main-products/tpl/';
+    var BASE_DIR_CTRL = APP_BASE_PATH + 'app/main-images/ctrl/';
+    var BASE_DIR_TPL = APP_BASE_PATH + 'app/main-images/tpl/';
 
-    lazyProvider.configure('act.Main.Products');
+    lazyProvider.configure('act.Main.Images');
 
     $stateProvider
-      .state('app.main.products', {
-        url: '/products',
+      .state('app.main.images', {
+        url: '/property/images',
         templateUrl: BASE_DIR_TPL + 'base.tpl.html',
-        controller: 'MainProductsBaseController',
+        controller: 'MainImagesBaseController',
         controllerAs: 'ViewModel',
         resolve: {
           services: ['lazy',
